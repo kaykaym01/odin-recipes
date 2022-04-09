@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<style>
-    img {
-        max-width: 60%;
-    }
-</style>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Recipes Main</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <img src="./img/kitchen.jpeg" alt="cooking utensils, pots, and bell peppers">
-        <ul>
-            <li><a href="./recipes/lasagna.html">Lasagna</a></li>
-            <li><a href="./recipes/caesar-salad.html">Caesar Salad</a></li>
-            <li><a href="./recipes/pbj-sandwich.html">Peanut Butter and Jelly</a></li>
-        </ul>
+        <header>
+            <div class="container container-head">
+                <h1>Odin Recipes</h1>
+            </div>
+        </header>
+        <main>
+            <div class="container container-recipe">
+                <div class="recipe-preview">
+                    <h2 class="recipe-preview-title"><a href="./recipes/lasagna.html">Lasagna</a></h2>
+                    <img class="recipe-preview-img" src="./img/lasagna.jpg" alt="lasagna">
+                </div>
+                <div class="recipe-preview">
+                    <h2 class="recipe-preview-title"><a href="./recipes/caesar-salad.html">Caesar Salad</a></h2>
+                    <img class="recipe-preview-img" src="./img/caesar-salad.jpeg" alt="caesar salad">
+                </div>
+                <div class="recipe-preview">
+                    <h2 class="recipe-preview-title"><a href="./recipes/pbj-sandwich.html">Peanut Butter and Jelly</a></h2>
+                    <img class="recipe-preview-img" src="./img/pbj-sandwich.jpeg" alt="peanut butter and jelly sandwich">
+                </div>
+            </div>
+        </main>
+       
     </body>
 </html>
